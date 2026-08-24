@@ -1,0 +1,25 @@
+[project]
+name = "claude-dev-lab"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "junhaohe-chris", email = "junhao.he@thoughtworks.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "anthropic>=1.0.0",
+    "python-dotenv>=1.2.3",
+]
+
+[project.scripts]
+claude-dev-lab = "claude_dev_lab:main"
+
+[build-system]
+requires = ["uv_build>=0.12.1,<0.13.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ipykernel>=7.3.0",
+]
