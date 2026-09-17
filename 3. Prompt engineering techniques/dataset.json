@@ -1,0 +1,50 @@
+[
+  {
+    "prompt_inputs": {
+      "height": "180",
+      "weight": "85",
+      "goal": "Build muscle and increase strength for powerlifting competition",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly 1 day with 4-5 meals/snacks",
+      "Protein distributed across all meals (minimum 25g per meal)",
+      "Includes pre/post-workout nutrition timed around training",
+      "Caloric intake and macronutrients support muscle building goals"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein distribution and recovery meals with focus on muscle building macronutrients"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "68 kg",
+      "goal": "Marathon training with high carbohydrate intake and strategic meal timing around a 2-hour morning run",
+      "restrictions": "None"
+    },
+    "solution_criteria": [
+      "Meal plan spans exactly one full day with breakfast, lunch, dinner, and pre/post-workout snacks",
+      "Carbohydrate intake is high (55-65% of total calories) with elevated calories suitable for endurance athlete (~3000-3200 kcal)",
+      "Pre-workout meal/snack provided before morning run and recovery nutrition provided within 30-60 minutes post-run",
+      "Plan is compact and concise (no more than 400 words)"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high carbohydrate and calorie intake with specific timing around training windows"
+  },
+  {
+    "prompt_inputs": {
+      "height": "178 cm",
+      "weight": "75 kg",
+      "goal": "Competition day meal plan with controlled calories (2400 kcal total) to maintain weight class while sustaining energy for wrestling matches",
+      "restrictions": "Low fiber (to minimize digestive issues during competition), no dairy, vegetarian"
+    },
+    "solution_criteria": [
+      "Provides 3 meals totaling approximately 2400 calories distributed across the day",
+      "Includes easily digestible, low-fiber foods suitable for competition day",
+      "All meals comply with vegetarian and dairy-free restrictions",
+      "Meal timing and composition support sustained energy for athletic performance"
+    ],
+    "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+    "scenario": "Testing with a sport that requires weight management (boxer/wrestler) needing calorie-controlled meals while maintaining performance and energy levels throughout competition day"
+  }
+]

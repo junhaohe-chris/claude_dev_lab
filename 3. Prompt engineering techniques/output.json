@@ -1,0 +1,65 @@
+[
+  {
+    "output": "# Nutrition Plan for Powerlifting\n\n## Calorie Target\n**2,800-3,200 calories/day** (slight surplus to build muscle)\n- BMR ~1,800 + activity burn + surplus\n\n## Macronutrient Breakdown\n\n| Macro | Daily Target | Purpose |\n|-------|--------------|---------|\n| **Protein** | 170-200g | Muscle repair & growth |\n| **Carbs** | 350-450g | Training energy & recovery |\n| **Fats** | 80-100g | Hormone production |\n\n## Priority Foods\n\n**Proteins** (170-200g)\n- Chicken, beef, fish\n- Eggs, Greek yogurt\n- Cottage cheese, whey protein\n\n**Carbs** (350-450g)\n- Rice, oats, potatoes\n- Pasta, bread\n- Fruits & vegetables\n\n**Fats** (80-100g)\n- Olive oil, nuts\n- Avocados, fatty fish\n- Whole eggs\n\n## Key Principles\n- \u2705 Eat 0.8-1g protein per pound of body weight\n- \u2705 Time carbs around training (pre/post-workout)\n- \u2705 Stay hydrated (3-4L water daily)\n- \u2705 Track intake for 2-3 weeks to dial in amounts\n- \u2705 Adjust calories if not gaining ~0.5-1 lb/week\n\n**Consider:** Work with a sports nutritionist for a personalized plan tied to your training cycle.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "180",
+        "weight": "85",
+        "goal": "Build muscle and increase strength for powerlifting competition",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan spans exactly 1 day with 4-5 meals/snacks",
+        "Protein distributed across all meals (minimum 25g per meal)",
+        "Includes pre/post-workout nutrition timed around training",
+        "Caloric intake and macronutrients support muscle building goals"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a strength/power athlete (weightlifter) emphasizing protein distribution and recovery meals with focus on muscle building macronutrients"
+    },
+    "score": 3,
+    "reasoning": "The solution provides excellent nutritional guidance and education, but fundamentally fails to deliver what was requested: an actual 1-day meal plan. The task explicitly requires a meal plan spanning exactly 1 day with 4-5 meals/snacks, specific foods with portions, and pre/post-workout timing. Instead, the solution provides only general nutritional guidelines and food categories without concrete meal structure. This violates all three mandatory requirements: no daily caloric total is shown with specific meals, no macronutrient breakdown tied to specific meals, and no meals with exact foods, portions, and timing are provided. The solution reads as a nutrition education document rather than an actionable 1-day meal plan."
+  },
+  {
+    "output": "# Nutrition Plan for Marathon Training\n\n## Daily Calorie Target\n**~2,800-3,200 calories** (depending on run intensity and cross-training)\n\n## Macronutrient Breakdown\n\n| Macro | Daily Target | Purpose |\n|-------|--------------|---------|\n| **Carbs** | 55-60% (385-480g) | Fuel for long runs & glycogen replenishment |\n| **Protein** | 15-20% (105-160g) | Muscle recovery & adaptation |\n| **Fat** | 20-25% (60-90g) | Hormonal health & satiety |\n\n---\n\n## Meal Timing Around 2-Hour Morning Run\n\n### **Pre-Run (45-60 min before)**\n- Easy-to-digest carbs + minimal fiber/fat\n- Examples: banana + honey, toast with jam, sports drink, oatmeal\n\n### **During Run (if >90 min)**\n- 30-60g carbs/hour\n- Sports drink, gels, or energy chews\n\n### **Post-Run (within 30-60 min) \u2014 CRITICAL**\n- **3:1 carb:protein ratio** (e.g., 60g carbs + 20g protein)\n- Examples: chocolate milk, bagel + Greek yogurt, rice + chicken, smoothie with fruit & protein powder\n\n---\n\n## Sample Daily Menu\n\n| Meal | Examples |\n|------|----------|\n| **Breakfast (post-run)** | Oatmeal (60g) + banana + egg whites, OR bagel + peanut butter + berries |\n| **Mid-Morning Snack** | Greek yogurt + granola, or sports bar |\n| **Lunch** | Chicken/fish + brown rice + vegetables + olive oil |\n| **Afternoon Snack** | Fruit + nuts, or smoothie |\n| **Dinner** | Lean protein + pasta/potatoes + veggies |\n| **Hydration** | 3-4L water daily; electrolytes on long run days |\n\n---\n\n## Key Principles\n\u2705 **Prioritize carbs strategically** around training  \n\u2705 **Hydrate consistently** throughout the day  \n\u2705 **Eat protein at every meal** for recovery  \n\u2705 **Include whole grains, lean proteins, fruits, vegetables**  \n\u2705 **Experiment during training** before race day\n\nWould you like specific meal prep ideas or adjustments?",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "68 kg",
+        "goal": "Marathon training with high carbohydrate intake and strategic meal timing around a 2-hour morning run",
+        "restrictions": "None"
+      },
+      "solution_criteria": [
+        "Meal plan spans exactly one full day with breakfast, lunch, dinner, and pre/post-workout snacks",
+        "Carbohydrate intake is high (55-65% of total calories) with elevated calories suitable for endurance athlete (~3000-3200 kcal)",
+        "Pre-workout meal/snack provided before morning run and recovery nutrition provided within 30-60 minutes post-run",
+        "Plan is compact and concise (no more than 400 words)"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a high-intensity endurance athlete (marathon runner) requiring high carbohydrate and calorie intake with specific timing around training windows"
+    },
+    "score": 3,
+    "reasoning": "The solution violates a MANDATORY requirement by failing to provide 'exact foods, portions, and timing' for meals. While it correctly identifies caloric needs and macronutrient percentages, it presents these as abstract guidance rather than a concrete meal plan. The 'Sample Daily Menu' lists meal categories with generic 'OR' examples but provides no specific portions (e.g., 'Oatmeal (60g)' appears once but most entries lack quantities), no timing schedule beyond pre/post-run, and no verification that the plan totals to the stated caloric and macronutrient targets. A user cannot execute this plan without making significant assumptions. The solution reads more like a nutritional framework than an actual meal plan for one day."
+  },
+  {
+    "output": "# Competition Day Meal Plan (2400 kcal)\n\n## Pre-Competition Strategy\n**Timing matters more than usual today.** Space meals 2-3 hours apart to avoid GI distress during matches.\n\n---\n\n## BREAKFAST (6-7 AM) \u2014 600 kcal\n- **2 cups white rice** (cooked) \u2014 260 kcal\n- **3 tbsp peanut butter** \u2014 280 kcal\n- **1 banana** (peeled, easier to digest) \u2014 60 kcal\n\n*Why: Quick carbs + fat for sustained energy, minimal fiber*\n\n---\n\n## MID-MORNING SNACK (9 AM) \u2014 400 kcal\n- **White bread sandwich** (2 slices):\n  - 2 tbsp peanut butter \u2014 190 kcal\n  - 1 tbsp honey \u2014 60 kcal\n- **Sports drink** (500ml, 6-8% carbs) \u2014 150 kcal\n\n*Why: Easily digestible carbs, keeps blood sugar stable*\n\n---\n\n## LUNCH (11:30 AM) \u2014 700 kcal\n- **White basmati rice** (1.5 cups cooked) \u2014 195 kcal\n- **Tofu stir-fry** (200g firm tofu, cooked in oil) \u2014 280 kcal\n- **White noodles or rice vermicelli** (75g dry) \u2014 225 kcal\n\n*Why: Complete protein, low-fiber carbs, easily digestible*\n\n---\n\n## PRE-MATCH SNACK (30-45 min before first match) \u2014 300 kcal\n- **Refined white bread** (2 slices) \u2014 140 kcal\n- **2 tbsp honey or jam** \u2014 110 kcal\n- **Water or electrolyte drink** \u2014 50 kcal\n\n*Why: Quick glucose, won't sit heavy in stomach*\n\n---\n\n## POST-MATCH (If multiple matches) \u2014 400 kcal\n- **Sports drink** (750ml) \u2014 250 kcal\n- **White rice cakes + peanut butter** \u2014 150 kcal\n\n*Why: Rapid carb/electrolyte replenishment*\n\n---\n\n## KEY PRINCIPLES\n\u2713 **Refined carbs only** (white rice, white bread, pasta)  \n\u2713 **No whole grains, beans, or high-fiber vegetables**  \n\u2713 **Adequate protein** (tofu, peanut butter, nuts)  \n\u2713 **Hydration**: Sip water/electrolytes throughout  \n\u2713 **Smaller, frequent portions** to avoid bloating  \n\u2717 Avoid: Dairy, seeds, raw vegetables, anything greasy 2+ hours before weigh-in\n\n**Weigh-in specifics?** If you cut weight yesterday, this maintains today without adding water retention.",
+    "test_case": {
+      "prompt_inputs": {
+        "height": "178 cm",
+        "weight": "75 kg",
+        "goal": "Competition day meal plan with controlled calories (2400 kcal total) to maintain weight class while sustaining energy for wrestling matches",
+        "restrictions": "Low fiber (to minimize digestive issues during competition), no dairy, vegetarian"
+      },
+      "solution_criteria": [
+        "Provides 3 meals totaling approximately 2400 calories distributed across the day",
+        "Includes easily digestible, low-fiber foods suitable for competition day",
+        "All meals comply with vegetarian and dairy-free restrictions",
+        "Meal timing and composition support sustained energy for athletic performance"
+      ],
+      "task_description": "Write a compact, concise 1 day meal plan for a single athlete",
+      "scenario": "Testing with a sport that requires weight management (boxer/wrestler) needing calorie-controlled meals while maintaining performance and energy levels throughout competition day"
+    },
+    "score": 3,
+    "reasoning": "The solution demonstrates strong practical knowledge of competition day nutrition and successfully addresses the secondary criteria: timing supports sustained energy, composition is low-fiber and easily digestible, and all restrictions are honored. However, it violates a MANDATORY requirement by failing to provide macronutrient breakdown (carbs/protein/fat in grams or percentages). The daily caloric total is also unclear - the base plan is 2000 kcal, with post-match bringing it to 2400, but the post-match section is conditional ('if multiple matches'). While the solution is contextually excellent and practically useful, the absence of macronutrient data is a clear mandatory requirement violation."
+  }
+]
